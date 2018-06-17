@@ -8,19 +8,26 @@
         android:layout_height="62dp"
         android:orientation="horizontal">
 
-        <ToggleButton
-            android:id="@+id/start"
+        <Button
+            android:id="@+id/startrecording"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ToggleButton" />
+            android:text="start"
+            />
 
         <Button
-            android:id="@+id/pause"
+            android:id="@+id/comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Resume" />
+            android:text="comment" />
+        <Button
+            android:id="@+id/discard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Discard" />
 
         <Button
             android:id="@+id/exit"
@@ -28,5 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Exit" />
+
+
     </LinearLayout>
 </LinearLayout>
